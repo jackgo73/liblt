@@ -1,0 +1,14 @@
+# Editors.
+*.sw*
+.vscode
+.DS_Store
+DS_Store
+*.iml
+.idea
+
+# Build directory.
+build/
+out/
+cmake-build-release-system/
+cmake-build-debug/
+run/

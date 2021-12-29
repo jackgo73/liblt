@@ -1,0 +1,13 @@
+#!/bin/bash
+
+git config user.name "jackgo73"
+git config user.email "jackgo73@outlook.com"
+git add .
+git commit -m "update" --date=format:relative:$1.days.ago
+git branch -M main
+git push -u origin main -f
+
+
+# git remote add origin git@github.com:jackgo73/liblt.git
+# git submodule add git@github.com:google/googletest.git
+# git submodule add git@github.com:google/benchmark.git
